@@ -3,7 +3,6 @@ library(lubridate)
 library(gridExtra)
 library(rstan)
 library(MCMCvis)
-library(gridExtra)
 
 rstan_options(auto_write = TRUE)
 options(mc.cores = parallel::detectCores())
